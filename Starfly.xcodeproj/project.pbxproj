@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBB13C95DDB476B2010D9D89 /* Pods_Starfly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E279E2CB4E3B8CAD125F80 /* Pods_Starfly.framework */; };
 		E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */; };
 		E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA51D7EB21700A013C9 /* ViewController.swift */; };
 		E2B4BEA91D7EB21700A013C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEA71D7EB21700A013C9 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		E2B4BEB11D7EB21700A013C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEAF1D7EB21700A013C9 /* LaunchScreen.storyboard */; };
 		E2B4BEBC1D7EB21700A013C9 /* StarflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEBB1D7EB21700A013C9 /* StarflyTests.swift */; };
 		E2B4BEC71D7EB21700A013C9 /* StarflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */; };
+		E2B5B9841D7F2C0100B7E402 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E2B5B9831D7F2C0100B7E402 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C5A7C21528B6D30C8EFC105 /* Pods-Starfly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starfly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starfly/Pods-Starfly.debug.xcconfig"; sourceTree = "<group>"; };
+		13E279E2CB4E3B8CAD125F80 /* Pods_Starfly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starfly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B51DD4D28A07B0FD13FBB52 /* Pods-Starfly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starfly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starfly/Pods-Starfly.release.xcconfig"; sourceTree = "<group>"; };
 		E2B4BEA01D7EB21700A013C9 /* Starfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B4BEA51D7EB21700A013C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		E2B4BEC21D7EB21700A013C9 /* StarflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarflyUITests.swift; sourceTree = "<group>"; };
 		E2B4BEC81D7EB21700A013C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B5B9831D7F2C0100B7E402 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB13C95DDB476B2010D9D89 /* Pods_Starfly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06BCBC07EAA5DA95E8508026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C5A7C21528B6D30C8EFC105 /* Pods-Starfly.debug.xcconfig */,
+				4B51DD4D28A07B0FD13FBB52 /* Pods-Starfly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82218486B5354EA3767164DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13E279E2CB4E3B8CAD125F80 /* Pods_Starfly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2B4BE971D7EB21700A013C9 = {
 			isa = PBXGroup;
 			children = (
+				E2B5B9831D7F2C0100B7E402 /* Podfile */,
 				E2B4BEA21D7EB21700A013C9 /* Starfly */,
 				E2B4BEBA1D7EB21700A013C9 /* StarflyTests */,
 				E2B4BEC51D7EB21700A013C9 /* StarflyUITests */,
 				E2B4BEA11D7EB21700A013C9 /* Products */,
+				06BCBC07EAA5DA95E8508026 /* Pods */,
+				82218486B5354EA3767164DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2B4BECB1D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "Starfly" */;
 			buildPhases = (
+				12F0392DDAC966A4A4747962 /* [CP] Check Pods Manifest.lock */,
 				E2B4BE9C1D7EB21700A013C9 /* Sources */,
 				E2B4BE9D1D7EB21700A013C9 /* Frameworks */,
 				E2B4BE9E1D7EB21700A013C9 /* Resources */,
+				4875752F871CB8078C332FB3 /* [CP] Embed Pods Frameworks */,
+				033707536BC425EE0D910C9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +270,7 @@
 			files = (
 				E2B4BEB11D7EB21700A013C9 /* LaunchScreen.storyboard in Resources */,
 				E2B4BEAE1D7EB21700A013C9 /* Assets.xcassets in Resources */,
+				E2B5B9841D7F2C0100B7E402 /* Podfile in Resources */,
 				E2B4BEA91D7EB21700A013C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +290,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033707536BC425EE0D910C9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starfly/Pods-Starfly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12F0392DDAC966A4A4747962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4875752F871CB8078C332FB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starfly/Pods-Starfly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2B4BE9C1D7EB21700A013C9 /* Sources */ = {
@@ -417,6 +496,7 @@
 		};
 		E2B4BECC1D7EB21700A013C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5A7C21528B6D30C8EFC105 /* Pods-Starfly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F7N28ZQT97;
@@ -430,6 +510,7 @@
 		};
 		E2B4BECD1D7EB21700A013C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B51DD4D28A07B0FD13FBB52 /* Pods-Starfly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F7N28ZQT97;
@@ -514,6 +595,7 @@
 				E2B4BECD1D7EB21700A013C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B4BECE1D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "StarflyTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +604,7 @@
 				E2B4BED01D7EB21700A013C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B4BED11D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "StarflyUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +613,7 @@
 				E2B4BED31D7EB21700A013C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
