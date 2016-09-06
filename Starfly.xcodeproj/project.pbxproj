@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */; };
+		E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA51D7EB21700A013C9 /* ViewController.swift */; };
+		E2B4BEA91D7EB21700A013C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEA71D7EB21700A013C9 /* Main.storyboard */; };
+		E2B4BEAC1D7EB21700A013C9 /* Starfly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEAA1D7EB21700A013C9 /* Starfly.xcdatamodeld */; };
+		E2B4BEAE1D7EB21700A013C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */; };
+		E2B4BEB11D7EB21700A013C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEAF1D7EB21700A013C9 /* LaunchScreen.storyboard */; };
+		E2B4BEBC1D7EB21700A013C9 /* StarflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEBB1D7EB21700A013C9 /* StarflyTests.swift */; };
+		E2B4BEC71D7EB21700A013C9 /* StarflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2B4BEB81D7EB21700A013C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B4BE981D7EB21700A013C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B4BE9F1D7EB21700A013C9;
+			remoteInfo = Starfly;
+		};
+		E2B4BEC31D7EB21700A013C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B4BE981D7EB21700A013C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B4BE9F1D7EB21700A013C9;
+			remoteInfo = Starfly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2B4BEA01D7EB21700A013C9 /* Starfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2B4BEA51D7EB21700A013C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2B4BEA81D7EB21700A013C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2B4BEAB1D7EB21700A013C9 /* Starfly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Starfly.xcdatamodel; sourceTree = "<group>"; };
+		E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B4BEB01D7EB21700A013C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B4BEB21D7EB21700A013C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B4BEB71D7EB21700A013C9 /* StarflyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarflyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B4BEBB1D7EB21700A013C9 /* StarflyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarflyTests.swift; sourceTree = "<group>"; };
+		E2B4BEBD1D7EB21700A013C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B4BEC21D7EB21700A013C9 /* StarflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarflyUITests.swift; sourceTree = "<group>"; };
+		E2B4BEC81D7EB21700A013C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B4BE9D1D7EB21700A013C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B4BEB41D7EB21700A013C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B4BEBF1D7EB21700A013C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2B4BE971D7EB21700A013C9 = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEA21D7EB21700A013C9 /* Starfly */,
+				E2B4BEBA1D7EB21700A013C9 /* StarflyTests */,
+				E2B4BEC51D7EB21700A013C9 /* StarflyUITests */,
+				E2B4BEA11D7EB21700A013C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B4BEA11D7EB21700A013C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEA01D7EB21700A013C9 /* Starfly.app */,
+				E2B4BEB71D7EB21700A013C9 /* StarflyTests.xctest */,
+				E2B4BEC21D7EB21700A013C9 /* StarflyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B4BEA21D7EB21700A013C9 /* Starfly */ = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */,
+				E2B4BEA51D7EB21700A013C9 /* ViewController.swift */,
+				E2B4BEA71D7EB21700A013C9 /* Main.storyboard */,
+				E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */,
+				E2B4BEAF1D7EB21700A013C9 /* LaunchScreen.storyboard */,
+				E2B4BEB21D7EB21700A013C9 /* Info.plist */,
+				E2B4BEAA1D7EB21700A013C9 /* Starfly.xcdatamodeld */,
+			);
+			path = Starfly;
+			sourceTree = "<group>";
+		};
+		E2B4BEBA1D7EB21700A013C9 /* StarflyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEBB1D7EB21700A013C9 /* StarflyTests.swift */,
+				E2B4BEBD1D7EB21700A013C9 /* Info.plist */,
+			);
+			path = StarflyTests;
+			sourceTree = "<group>";
+		};
+		E2B4BEC51D7EB21700A013C9 /* StarflyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */,
+				E2B4BEC81D7EB21700A013C9 /* Info.plist */,
+			);
+			path = StarflyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B4BE9F1D7EB21700A013C9 /* Starfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B4BECB1D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "Starfly" */;
+			buildPhases = (
+				E2B4BE9C1D7EB21700A013C9 /* Sources */,
+				E2B4BE9D1D7EB21700A013C9 /* Frameworks */,
+				E2B4BE9E1D7EB21700A013C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starfly;
+			productName = Starfly;
+			productReference = E2B4BEA01D7EB21700A013C9 /* Starfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2B4BEB61D7EB21700A013C9 /* StarflyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B4BECE1D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "StarflyTests" */;
+			buildPhases = (
+				E2B4BEB31D7EB21700A013C9 /* Sources */,
+				E2B4BEB41D7EB21700A013C9 /* Frameworks */,
+				E2B4BEB51D7EB21700A013C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B4BEB91D7EB21700A013C9 /* PBXTargetDependency */,
+			);
+			name = StarflyTests;
+			productName = StarflyTests;
+			productReference = E2B4BEB71D7EB21700A013C9 /* StarflyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2B4BEC11D7EB21700A013C9 /* StarflyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B4BED11D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "StarflyUITests" */;
+			buildPhases = (
+				E2B4BEBE1D7EB21700A013C9 /* Sources */,
+				E2B4BEBF1D7EB21700A013C9 /* Frameworks */,
+				E2B4BEC01D7EB21700A013C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B4BEC41D7EB21700A013C9 /* PBXTargetDependency */,
+			);
+			name = StarflyUITests;
+			productName = StarflyUITests;
+			productReference = E2B4BEC21D7EB21700A013C9 /* StarflyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B4BE981D7EB21700A013C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Arturs Derkintis";
+				TargetAttributes = {
+					E2B4BE9F1D7EB21700A013C9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F7N28ZQT97;
+						ProvisioningStyle = Automatic;
+					};
+					E2B4BEB61D7EB21700A013C9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F7N28ZQT97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2B4BE9F1D7EB21700A013C9;
+					};
+					E2B4BEC11D7EB21700A013C9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F7N28ZQT97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2B4BE9F1D7EB21700A013C9;
+					};
+				};
+			};
+			buildConfigurationList = E2B4BE9B1D7EB21700A013C9 /* Build configuration list for PBXProject "Starfly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B4BE971D7EB21700A013C9;
+			productRefGroup = E2B4BEA11D7EB21700A013C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B4BE9F1D7EB21700A013C9 /* Starfly */,
+				E2B4BEB61D7EB21700A013C9 /* StarflyTests */,
+				E2B4BEC11D7EB21700A013C9 /* StarflyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B4BE9E1D7EB21700A013C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B4BEB11D7EB21700A013C9 /* LaunchScreen.storyboard in Resources */,
+				E2B4BEAE1D7EB21700A013C9 /* Assets.xcassets in Resources */,
+				E2B4BEA91D7EB21700A013C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B4BEB51D7EB21700A013C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B4BEC01D7EB21700A013C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B4BE9C1D7EB21700A013C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */,
+				E2B4BEAC1D7EB21700A013C9 /* Starfly.xcdatamodeld in Sources */,
+				E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B4BEB31D7EB21700A013C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B4BEBC1D7EB21700A013C9 /* StarflyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B4BEBE1D7EB21700A013C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B4BEC71D7EB21700A013C9 /* StarflyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2B4BEB91D7EB21700A013C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B4BE9F1D7EB21700A013C9 /* Starfly */;
+			targetProxy = E2B4BEB81D7EB21700A013C9 /* PBXContainerItemProxy */;
+		};
+		E2B4BEC41D7EB21700A013C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B4BE9F1D7EB21700A013C9 /* Starfly */;
+			targetProxy = E2B4BEC31D7EB21700A013C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2B4BEA71D7EB21700A013C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B4BEA81D7EB21700A013C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2B4BEAF1D7EB21700A013C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B4BEB01D7EB21700A013C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B4BEC91D7EB21700A013C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B4BECA1D7EB21700A013C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B4BECC1D7EB21700A013C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7N28ZQT97;
+				INFOPLIST_FILE = Starfly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfly.Starfly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2B4BECD1D7EB21700A013C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7N28ZQT97;
+				INFOPLIST_FILE = Starfly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfly.Starfly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E2B4BECF1D7EB21700A013C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F7N28ZQT97;
+				INFOPLIST_FILE = StarflyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfly.StarflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starfly.app/Starfly";
+			};
+			name = Debug;
+		};
+		E2B4BED01D7EB21700A013C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F7N28ZQT97;
+				INFOPLIST_FILE = StarflyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfly.StarflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starfly.app/Starfly";
+			};
+			name = Release;
+		};
+		E2B4BED21D7EB21700A013C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F7N28ZQT97;
+				INFOPLIST_FILE = StarflyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfly.StarflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Starfly;
+			};
+			name = Debug;
+		};
+		E2B4BED31D7EB21700A013C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F7N28ZQT97;
+				INFOPLIST_FILE = StarflyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfly.StarflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Starfly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B4BE9B1D7EB21700A013C9 /* Build configuration list for PBXProject "Starfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B4BEC91D7EB21700A013C9 /* Debug */,
+				E2B4BECA1D7EB21700A013C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B4BECB1D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "Starfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B4BECC1D7EB21700A013C9 /* Debug */,
+				E2B4BECD1D7EB21700A013C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2B4BECE1D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "StarflyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B4BECF1D7EB21700A013C9 /* Debug */,
+				E2B4BED01D7EB21700A013C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2B4BED11D7EB21700A013C9 /* Build configuration list for PBXNativeTarget "StarflyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B4BED21D7EB21700A013C9 /* Debug */,
+				E2B4BED31D7EB21700A013C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2B4BEAA1D7EB21700A013C9 /* Starfly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2B4BEAB1D7EB21700A013C9 /* Starfly.xcdatamodel */,
+			);
+			currentVersion = E2B4BEAB1D7EB21700A013C9 /* Starfly.xcdatamodel */;
+			path = Starfly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2B4BE981D7EB21700A013C9 /* Project object */;
+}
