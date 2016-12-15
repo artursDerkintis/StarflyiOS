@@ -11,7 +11,6 @@
 		E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */; };
 		E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA51D7EB21700A013C9 /* ViewController.swift */; };
 		E2B4BEA91D7EB21700A013C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEA71D7EB21700A013C9 /* Main.storyboard */; };
-		E2B4BEAC1D7EB21700A013C9 /* Starfly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEAA1D7EB21700A013C9 /* Starfly.xcdatamodeld */; };
 		E2B4BEAE1D7EB21700A013C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */; };
 		E2B4BEB11D7EB21700A013C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEAF1D7EB21700A013C9 /* LaunchScreen.storyboard */; };
 		E2B4BEBC1D7EB21700A013C9 /* StarflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEBB1D7EB21700A013C9 /* StarflyTests.swift */; };
@@ -44,7 +43,6 @@
 		E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B4BEA51D7EB21700A013C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2B4BEA81D7EB21700A013C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E2B4BEAB1D7EB21700A013C9 /* Starfly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Starfly.xcdatamodel; sourceTree = "<group>"; };
 		E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B4BEB01D7EB21700A013C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B4BEB21D7EB21700A013C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +52,7 @@
 		E2B4BEC21D7EB21700A013C9 /* StarflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarflyUITests.swift; sourceTree = "<group>"; };
 		E2B4BEC81D7EB21700A013C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2B5B9831D7F2C0100B7E402 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E2B5B9831D7F2C0100B7E402 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +98,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E253A6981E03432A000C2F12 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEA51D7EB21700A013C9 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E253A6991E03433A000C2F12 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEA71D7EB21700A013C9 /* Main.storyboard */,
+				E2B4BEAF1D7EB21700A013C9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E253A69A1E03434D000C2F12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2B4BEB21D7EB21700A013C9 /* Info.plist */,
+				E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E2B4BE971D7EB21700A013C9 = {
 			isa = PBXGroup;
 			children = (
@@ -127,12 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */,
-				E2B4BEA51D7EB21700A013C9 /* ViewController.swift */,
-				E2B4BEA71D7EB21700A013C9 /* Main.storyboard */,
-				E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */,
-				E2B4BEAF1D7EB21700A013C9 /* LaunchScreen.storyboard */,
-				E2B4BEB21D7EB21700A013C9 /* Info.plist */,
-				E2B4BEAA1D7EB21700A013C9 /* Starfly.xcdatamodeld */,
+				E253A6981E03432A000C2F12 /* ViewControllers */,
+				E253A6991E03433A000C2F12 /* Storyboards */,
+				E253A69A1E03434D000C2F12 /* Resources */,
 			);
 			path = Starfly;
 			sourceTree = "<group>";
@@ -319,7 +340,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4875752F871CB8078C332FB3 /* [CP] Embed Pods Frameworks */ = {
@@ -345,7 +366,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */,
-				E2B4BEAC1D7EB21700A013C9 /* Starfly.xcdatamodeld in Sources */,
 				E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,19 +636,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E2B4BEAA1D7EB21700A013C9 /* Starfly.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E2B4BEAB1D7EB21700A013C9 /* Starfly.xcdatamodel */,
-			);
-			currentVersion = E2B4BEAB1D7EB21700A013C9 /* Starfly.xcdatamodel */;
-			path = Starfly.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E2B4BE981D7EB21700A013C9 /* Project object */;
 }

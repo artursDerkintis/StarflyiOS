@@ -69,7 +69,7 @@ public class ConstraintMaker {
         return self.makeExtendableWithAttributes(.centerY)
     }
     
-    @available(*, deprecated:0.40.0, message:"Use lastBaseline instead")
+    @available(*, deprecated:3.0, message:"Use lastBaseline instead")
     public var baseline: ConstraintMakerExtendable {
         return self.makeExtendableWithAttributes(.lastBaseline)
     }
@@ -91,6 +91,11 @@ public class ConstraintMaker {
     @available(iOS 8.0, *)
     public var rightMargin: ConstraintMakerExtendable {
         return self.makeExtendableWithAttributes(.rightMargin)
+    }
+    
+    @available(iOS 8.0, *)
+    public var topMargin: ConstraintMakerExtendable {
+        return self.makeExtendableWithAttributes(.topMargin)
     }
     
     @available(iOS 8.0, *)
@@ -180,6 +185,11 @@ public class ConstraintMaker {
     }
     
     internal static func updateConstraints(view: ConstraintView, closure: (_ make: ConstraintMaker) -> Void) {
+        guard view.snp.constraints.count > 0 else {
+            self.makeConstraints(view: view, closure: closure)
+            return
+        }
+        
         let maker = ConstraintMaker(view: view)
         closure(maker)
         let constraints = maker.descriptions
@@ -192,7 +202,7 @@ public class ConstraintMaker {
     }
     
     internal static func removeConstraints(view: ConstraintView) {
-        let constraints = view.snp.layoutConstraints.map { $0.constraint! }
+        let constraints = view.snp.constraints
         for constraint in constraints {
             constraint.deactivateIfNeeded()
         }

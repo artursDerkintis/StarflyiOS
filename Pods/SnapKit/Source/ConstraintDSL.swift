@@ -30,19 +30,19 @@
 
 public protocol ConstraintDSL {
     
-    var label: String? { get set }
     var target: AnyObject? { get }
+    
+    func setLabel(_ value: String?)
+    func label() -> String?
     
 }
 extension ConstraintDSL {
     
-    public var label: String? {
-        get {
-            return objc_getAssociatedObject(self.target, &labelKey) as? String
-        }
-        set {
-            objc_setAssociatedObject(self.target, &labelKey, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
-        }
+    public func setLabel(_ value: String?) {
+        objc_setAssociatedObject(self.target, &labelKey, value, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+    }
+    public func label() -> String? {
+        return objc_getAssociatedObject(self.target, &labelKey) as? String
     }
     
 }
@@ -109,7 +109,7 @@ extension ConstraintAttributesDSL {
     
     // MARK: Baselines
     
-    @available(*, deprecated:0.40.0, message:"Use .lastBaseline instead")
+    @available(*, deprecated:3.0, message:"Use .lastBaseline instead")
     public var baseline: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.lastBaseline)
     }
