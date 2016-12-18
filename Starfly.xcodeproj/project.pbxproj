@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BBB13C95DDB476B2010D9D89 /* Pods_Starfly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E279E2CB4E3B8CAD125F80 /* Pods_Starfly.framework */; };
+		E253A6A01E0344E9000C2F12 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253A69F1E0344E9000C2F12 /* GradientView.swift */; };
+		E253A6A21E035022000C2F12 /* SideTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253A6A11E035022000C2F12 /* SideTabBarViewController.swift */; };
+		E2879D811E0359C300433ABC /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2879D801E0359C300433ABC /* SideBarView.swift */; };
 		E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */; };
 		E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEA51D7EB21700A013C9 /* ViewController.swift */; };
 		E2B4BEA91D7EB21700A013C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B4BEA71D7EB21700A013C9 /* Main.storyboard */; };
@@ -16,6 +19,16 @@
 		E2B4BEBC1D7EB21700A013C9 /* StarflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEBB1D7EB21700A013C9 /* StarflyTests.swift */; };
 		E2B4BEC71D7EB21700A013C9 /* StarflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */; };
 		E2B5B9841D7F2C0100B7E402 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E2B5B9831D7F2C0100B7E402 /* Podfile */; };
+		E2D70B861E060DF0003F2B9F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B851E060DF0003F2B9F /* UIColor+Extensions.swift */; };
+		E2D70B881E06126E003F2B9F /* SideTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D70B871E06126E003F2B9F /* SideTab.xib */; };
+		E2D70B8B1E061834003F2B9F /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B8A1E061834003F2B9F /* TabViewModel.swift */; };
+		E2D70B8E1E061A04003F2B9F /* TabsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B8D1E061A04003F2B9F /* TabsItem.swift */; };
+		E2D70B901E061B7E003F2B9F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B8F1E061B7E003F2B9F /* Tabs.swift */; };
+		E2D70B921E061C7E003F2B9F /* TabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B911E061C7E003F2B9F /* TabsTests.swift */; };
+		E2D70B941E06EC67003F2B9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B931E06EC67003F2B9F /* Constants.swift */; };
+		E2D70B961E06ED9C003F2B9F /* TabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B951E06ED9C003F2B9F /* TabCollectionViewCell.swift */; };
+		E2D70B981E06F772003F2B9F /* TabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D70B971E06F772003F2B9F /* TabCollectionViewCell.xib */; };
+		E2D70B9B1E06F982003F2B9F /* SideBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B991E06F982003F2B9F /* SideBarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +52,9 @@
 		0C5A7C21528B6D30C8EFC105 /* Pods-Starfly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starfly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starfly/Pods-Starfly.debug.xcconfig"; sourceTree = "<group>"; };
 		13E279E2CB4E3B8CAD125F80 /* Pods_Starfly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starfly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B51DD4D28A07B0FD13FBB52 /* Pods-Starfly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starfly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starfly/Pods-Starfly.release.xcconfig"; sourceTree = "<group>"; };
+		E253A69F1E0344E9000C2F12 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E253A6A11E035022000C2F12 /* SideTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideTabBarViewController.swift; sourceTree = "<group>"; };
+		E2879D801E0359C300433ABC /* SideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		E2B4BEA01D7EB21700A013C9 /* Starfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B4BEA51D7EB21700A013C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +69,16 @@
 		E2B4BEC61D7EB21700A013C9 /* StarflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarflyUITests.swift; sourceTree = "<group>"; };
 		E2B4BEC81D7EB21700A013C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2B5B9831D7F2C0100B7E402 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2D70B851E060DF0003F2B9F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		E2D70B871E06126E003F2B9F /* SideTab.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideTab.xib; sourceTree = "<group>"; };
+		E2D70B8A1E061834003F2B9F /* TabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		E2D70B8D1E061A04003F2B9F /* TabsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsItem.swift; sourceTree = "<group>"; };
+		E2D70B8F1E061B7E003F2B9F /* Tabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		E2D70B911E061C7E003F2B9F /* TabsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsTests.swift; sourceTree = "<group>"; };
+		E2D70B931E06EC67003F2B9F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2D70B951E06ED9C003F2B9F /* TabCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2D70B971E06F772003F2B9F /* TabCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCollectionViewCell.xib; sourceTree = "<group>"; };
+		E2D70B991E06F982003F2B9F /* SideBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				E2B4BEA51D7EB21700A013C9 /* ViewController.swift */,
+				E253A6A11E035022000C2F12 /* SideTabBarViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -122,6 +149,26 @@
 				E2B4BEAD1D7EB21700A013C9 /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E253A69B1E034469000C2F12 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				E2D70B871E06126E003F2B9F /* SideTab.xib */,
+				E2D70B971E06F772003F2B9F /* TabCollectionViewCell.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		E253A69E1E0344CC000C2F12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E253A69F1E0344E9000C2F12 /* GradientView.swift */,
+				E2879D801E0359C300433ABC /* SideBarView.swift */,
+				E2D70B951E06ED9C003F2B9F /* TabCollectionViewCell.swift */,
+				E2D70B991E06F982003F2B9F /* SideBarCollectionViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		E2B4BE971D7EB21700A013C9 = {
@@ -153,6 +200,11 @@
 				E2B4BEA31D7EB21700A013C9 /* AppDelegate.swift */,
 				E253A6981E03432A000C2F12 /* ViewControllers */,
 				E253A6991E03433A000C2F12 /* Storyboards */,
+				E253A69E1E0344CC000C2F12 /* Views */,
+				E253A69B1E034469000C2F12 /* Xibs */,
+				E2D70B841E060DBF003F2B9F /* Extensions */,
+				E2D70B8C1E0619F0003F2B9F /* Model */,
+				E2D70B891E0617E6003F2B9F /* ViewModels */,
 				E253A69A1E03434D000C2F12 /* Resources */,
 			);
 			path = Starfly;
@@ -163,6 +215,7 @@
 			children = (
 				E2B4BEBB1D7EB21700A013C9 /* StarflyTests.swift */,
 				E2B4BEBD1D7EB21700A013C9 /* Info.plist */,
+				E2D70B911E061C7E003F2B9F /* TabsTests.swift */,
 			);
 			path = StarflyTests;
 			sourceTree = "<group>";
@@ -174,6 +227,32 @@
 				E2B4BEC81D7EB21700A013C9 /* Info.plist */,
 			);
 			path = StarflyUITests;
+			sourceTree = "<group>";
+		};
+		E2D70B841E060DBF003F2B9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2D70B851E060DF0003F2B9F /* UIColor+Extensions.swift */,
+				E2D70B931E06EC67003F2B9F /* Constants.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E2D70B891E0617E6003F2B9F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E2D70B8A1E061834003F2B9F /* TabViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		E2D70B8C1E0619F0003F2B9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2D70B8D1E061A04003F2B9F /* TabsItem.swift */,
+				E2D70B8F1E061B7E003F2B9F /* Tabs.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +368,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D70B981E06F772003F2B9F /* TabCollectionViewCell.xib in Resources */,
 				E2B4BEB11D7EB21700A013C9 /* LaunchScreen.storyboard in Resources */,
 				E2B4BEAE1D7EB21700A013C9 /* Assets.xcassets in Resources */,
+				E2D70B881E06126E003F2B9F /* SideTab.xib in Resources */,
 				E2B5B9841D7F2C0100B7E402 /* Podfile in Resources */,
 				E2B4BEA91D7EB21700A013C9 /* Main.storyboard in Resources */,
 			);
@@ -365,8 +446,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D70B961E06ED9C003F2B9F /* TabCollectionViewCell.swift in Sources */,
 				E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */,
+				E2D70B861E060DF0003F2B9F /* UIColor+Extensions.swift in Sources */,
+				E253A6A21E035022000C2F12 /* SideTabBarViewController.swift in Sources */,
 				E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */,
+				E2879D811E0359C300433ABC /* SideBarView.swift in Sources */,
+				E2D70B941E06EC67003F2B9F /* Constants.swift in Sources */,
+				E2D70B9B1E06F982003F2B9F /* SideBarCollectionViewCell.swift in Sources */,
+				E2D70B901E061B7E003F2B9F /* Tabs.swift in Sources */,
+				E2D70B8E1E061A04003F2B9F /* TabsItem.swift in Sources */,
+				E2D70B8B1E061834003F2B9F /* TabViewModel.swift in Sources */,
+				E253A6A01E0344E9000C2F12 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B4BEBC1D7EB21700A013C9 /* StarflyTests.swift in Sources */,
+				E2D70B921E061C7E003F2B9F /* TabsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

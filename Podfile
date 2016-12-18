@@ -5,4 +5,5 @@ use_frameworks!
 target 'Starfly' do
      pod 'SnapKit', '3.0.2'
      pod 'RealmSwift', '2.1.1'
+     pod 'AlamofireImage', '3.2'
 end

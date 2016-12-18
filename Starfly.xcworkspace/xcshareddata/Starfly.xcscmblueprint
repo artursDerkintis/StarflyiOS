@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BD28BE2AA8E05026167FF9AA120DC35018A416D1+++2EE91AD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BD28BE2AA8E05026167FF9AA120DC35018A416D1+++2EE91AD" : 9223372036854775807,
+    "BD28BE2AA8E05026167FF9AA120DC35018A416D1+++884F760" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3103894C-D35C-4731-B495-D8C7091336A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BD28BE2AA8E05026167FF9AA120DC35018A416D1+++2EE91AD" : "",
+    "BD28BE2AA8E05026167FF9AA120DC35018A416D1+++884F760" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Starfly",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Starfly.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/artursDerkintis\/StarflyiOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BD28BE2AA8E05026167FF9AA120DC35018A416D1+++2EE91AD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/artursDerkintis\/StarflyiOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BD28BE2AA8E05026167FF9AA120DC35018A416D1+++884F760"
+    }
+  ]
+}
