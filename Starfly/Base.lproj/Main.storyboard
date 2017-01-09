@@ -68,6 +68,7 @@
                                 <connections>
                                     <outlet property="containerView" destination="eGX-Mc-qMO" id="xho-yq-KdT"/>
                                     <outlet property="sliderView" destination="01C-wE-2WO" id="Tl4-sy-qiH"/>
+                                    <outlet property="starflyLogoImageView" destination="zVR-Nx-RYp" id="DaT-Sg-LR3"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -170,7 +171,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843137254897" green="0.86274509803921573" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="i75-9E-tlB" secondAttribute="trailing" constant="2" id="7RV-3v-rg1"/>
                             <constraint firstItem="i75-9E-tlB" firstAttribute="top" secondItem="VD3-Jx-Cq6" secondAttribute="top" id="dPw-bd-6Ik"/>

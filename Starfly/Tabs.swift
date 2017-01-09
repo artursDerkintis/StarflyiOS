@@ -11,6 +11,8 @@ import Foundation
 
 struct Tabs {
     
+    var ref : String?
+    
     var currentTabItem : TabsItem?{
         didSet{
             updateCurrentTabView?()

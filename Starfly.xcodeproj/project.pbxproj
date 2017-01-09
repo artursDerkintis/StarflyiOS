@@ -29,6 +29,7 @@
 		E2D70B961E06ED9C003F2B9F /* TabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B951E06ED9C003F2B9F /* TabCollectionViewCell.swift */; };
 		E2D70B981E06F772003F2B9F /* TabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D70B971E06F772003F2B9F /* TabCollectionViewCell.xib */; };
 		E2D70B9B1E06F982003F2B9F /* SideBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B991E06F982003F2B9F /* SideBarCollectionViewCell.swift */; };
+		E2D70B9F1E075A1A003F2B9F /* TabsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D70B9E1E075A1A003F2B9F /* TabsHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		E2D70B951E06ED9C003F2B9F /* TabCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionViewCell.swift; sourceTree = "<group>"; };
 		E2D70B971E06F772003F2B9F /* TabCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCollectionViewCell.xib; sourceTree = "<group>"; };
 		E2D70B991E06F982003F2B9F /* SideBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2D70B9E1E075A1A003F2B9F /* TabsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				E253A69E1E0344CC000C2F12 /* Views */,
 				E253A69B1E034469000C2F12 /* Xibs */,
 				E2D70B841E060DBF003F2B9F /* Extensions */,
+				E2D70B9D1E0759F1003F2B9F /* DataHandlers */,
 				E2D70B8C1E0619F0003F2B9F /* Model */,
 				E2D70B891E0617E6003F2B9F /* ViewModels */,
 				E253A69A1E03434D000C2F12 /* Resources */,
@@ -253,6 +256,14 @@
 				E2D70B8F1E061B7E003F2B9F /* Tabs.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E2D70B9D1E0759F1003F2B9F /* DataHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				E2D70B9E1E075A1A003F2B9F /* TabsHandler.swift */,
+			);
+			name = DataHandlers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,6 +460,7 @@
 				E2D70B961E06ED9C003F2B9F /* TabCollectionViewCell.swift in Sources */,
 				E2B4BEA61D7EB21700A013C9 /* ViewController.swift in Sources */,
 				E2D70B861E060DF0003F2B9F /* UIColor+Extensions.swift in Sources */,
+				E2D70B9F1E075A1A003F2B9F /* TabsHandler.swift in Sources */,
 				E253A6A21E035022000C2F12 /* SideTabBarViewController.swift in Sources */,
 				E2B4BEA41D7EB21700A013C9 /* AppDelegate.swift in Sources */,
 				E2879D811E0359C300433ABC /* SideBarView.swift in Sources */,

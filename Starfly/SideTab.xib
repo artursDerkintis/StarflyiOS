@@ -34,22 +34,90 @@
                         <outlet property="delegate" destination="-1" id="8TR-ex-cBE"/>
                     </connections>
                 </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEr-g2-kUu" customClass="GradientView" customModule="Starfly" customModuleProvider="target">
+                    <rect key="frame" x="154" y="0.0" width="50" height="170"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="2BV-e9-TX5"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                            <color key="value" white="1" alpha="0.897612235915493" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                            <color key="value" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="NO"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="topLocation">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="bottomLocation">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izt-cP-af6">
+                    <rect key="frame" x="154" y="0.0" width="50" height="170"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="rEl-Sz-WxQ"/>
+                    </constraints>
+                    <state key="normal" title="&gt;"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N7z-81-wWB" customClass="GradientView" customModule="Starfly" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="170"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="IbX-so-sX7"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                            <color key="value" white="1" alpha="0.89530149647887325" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                            <color key="value" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="NO"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="topLocation">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="bottomLocation">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-cl-yOx">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="170"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="sJN-bc-rhR"/>
+                    </constraints>
+                    <state key="normal" title="&lt;"/>
+                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLI-yN-OEu">
                     <rect key="frame" x="160" y="0.0" width="44" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="44" id="64B-jz-Jhf"/>
                     </constraints>
-                    <state key="normal" title="x">
-                        <color key="titleColor" red="0.1450980392" green="0.1215686275" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
+                    <state key="normal" title="x"/>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="N7z-81-wWB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0he-el-kMk"/>
+                <constraint firstItem="tuA-cl-yOx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2ml-BF-62T"/>
                 <constraint firstAttribute="trailing" secondItem="O0j-qA-mWr" secondAttribute="trailing" id="56e-n1-U8G"/>
+                <constraint firstAttribute="trailing" secondItem="NEr-g2-kUu" secondAttribute="trailing" id="89R-hV-OoX"/>
+                <constraint firstAttribute="trailing" secondItem="izt-cP-af6" secondAttribute="trailing" id="9xx-Ka-xpn"/>
                 <constraint firstItem="VLI-yN-OEu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F7H-nO-gf3"/>
                 <constraint firstAttribute="bottom" secondItem="O0j-qA-mWr" secondAttribute="bottom" id="FRU-MM-f0s"/>
+                <constraint firstItem="NEr-g2-kUu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ftz-8U-teC"/>
+                <constraint firstItem="tuA-cl-yOx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GdH-Zf-sVf"/>
+                <constraint firstAttribute="bottom" secondItem="NEr-g2-kUu" secondAttribute="bottom" id="JNQ-ii-wh4"/>
                 <constraint firstItem="O0j-qA-mWr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ONw-Na-GtS"/>
+                <constraint firstItem="N7z-81-wWB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Tf6-DG-1Lt"/>
+                <constraint firstAttribute="bottom" secondItem="N7z-81-wWB" secondAttribute="bottom" id="YWb-UD-pTa"/>
+                <constraint firstAttribute="bottom" secondItem="izt-cP-af6" secondAttribute="bottom" id="jHI-5Y-RDK"/>
+                <constraint firstAttribute="bottom" secondItem="tuA-cl-yOx" secondAttribute="bottom" id="jpW-K8-ZYA"/>
+                <constraint firstItem="izt-cP-af6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kwM-cS-436"/>
                 <constraint firstItem="O0j-qA-mWr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qZ0-pJ-gGT"/>
                 <constraint firstAttribute="trailing" secondItem="VLI-yN-OEu" secondAttribute="trailing" id="swj-qx-MBf"/>
             </constraints>

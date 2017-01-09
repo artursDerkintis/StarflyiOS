@@ -27,6 +27,11 @@ class TabViewModel : NSObject, UICollectionViewDelegate{
         collectionView.register(UINib(nibName: "TabCollectionViewCell", bundle: Bundle.main), forCellWithReuseIdentifier: cellID)
     }
     
+    func updateFrames(){
+        (collectionView.collectionViewLayout as? UICollectionViewFlowLayout)?.itemSize = CGSize(width: collectionView.frame.size.width - 50, height: 150)
+        collectionView.collectionViewLayout.invalidateLayout()
+    }
+    
     var tabs : Tabs? {
         didSet{
             
@@ -42,7 +47,7 @@ extension TabViewModel: UICollectionViewDataSource{
             return UICollectionViewCell()
         }
         if let tabsItem = tabs?.tabsItemArray[indexPath.row]{
-
+            cell.tabsItem = tabsItem
         }
         return cell
     }

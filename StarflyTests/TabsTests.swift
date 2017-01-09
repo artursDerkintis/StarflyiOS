@@ -21,7 +21,7 @@ class TabsTests: XCTestCase {
         super.tearDown()
     }
     
-    func testTabsWorkflow() {
+    func testTabsHistoryWorkflow() {
         var tabs = Tabs()
         let tabsItem1 = TabsItem(ref: "ref1")
         tabs.addNewItem(tabsItem: tabsItem1)
@@ -51,5 +51,19 @@ class TabsTests: XCTestCase {
         
     }
     
+    func testTabsAddRemoveSwap(){
+        var tabsHandler = TabsHandler.shared
+        let tabs1 = tabsHandler.addTab(ref: "tab1")
+        let tabs2 = tabsHandler.addTab(ref: "tab2")
+        let tabs3 = tabsHandler.addTab(ref: "tab3")
+        tabsHandler.currentTabs = tabs1
+        let tabs4 = tabsHandler.addTab(ref: "tab4")
+        XCTAssertTrue(tabsHandler.currentIndex == 1)
+        tabsHandler.removeTab(ref: "tab3")
+        
+        tabsHandler.swapTabs(ref1: "tab1", ref2: "tab2")
+        XCTAssertTrue(tabsHandler.arrayOfTabs[0].ref == "tab2")
+        
+    }
     
 }
